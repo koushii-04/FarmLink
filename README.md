@@ -15,8 +15,7 @@ Payments: Razorpay Checkout SDK
 
 Environment Variables
 
-
- Backend (backend/.env)
+Backend (backend/.env)
 Create a `.env` file in the `backend/` directory and add the following keys:
 ```env
 # Server

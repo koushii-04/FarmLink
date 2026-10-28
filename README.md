@@ -17,20 +17,16 @@ Environment Variables
 
 Backend (backend/.env)
 Create a `.env` file in the `backend/` directory and add the following keys:
-```env
-# Server
+
 PORT=8000
 FRONTEND_URL=http://localhost:5173
 
-# Database
 DATABASE_URL=mysql+pymysql://<username>:<password>@localhost:3306/farmlink_db
 
-# Authentication
 JWT_SECRET=your_jwt_secret_key_here
 JWT_ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=1440
 
-# Razorpay Escrow
 RAZORPAY_KEY_ID=rzp_test_your_key_id_here
 RAZORPAY_KEY_SECRET=your_razorpay_secret_here
 
